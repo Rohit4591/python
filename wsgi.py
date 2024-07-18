@@ -1,5 +1,5 @@
 """
-WSGI config for emp_proj project.
+WSGI config for frt project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'emp_proj.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'frt.settings')
 
 application = get_wsgi_application()
